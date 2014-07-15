@@ -1,10 +1,95 @@
+/*Properties of the biggest blocks*/
+
 body {
 	font-family: Arial;
+	width: 95%;
+	margin: auto;
+}
+
+.section {
+	display: block;
+}
+
+.header {
+	background-color: gray;
+	height: 70px;
+	display: block;
+}
+
+.section {
+	display: block;
+	width: 100%;
+	background-color: white;
+	float: left;
+}
+.main {
+	width: 75%;
+	float: left;
+	display: block;
+	position: relative;
+}
+ 
+.aside{
+	width: 25%; 
+	float: right;
+	display: inline-block;
+	position: relative;
+}
+
+.footer {
+	background-color: gray;
+	height: 50px;
+	clear: left;
+	display: block;
+}
+
+
+/*Header blocks*/
+.logo {
+	height: 60px;
+	width: 100px;
+	background-color: white;
+	margin: 5px;
+	float: left;
+}
+
+.nav {
+	float: right;
+	height: 60px;
+	background-color: white;
+	margin: 5px;
+	display: inline-block;
+}
+
+.search {
+	float: right;
+	display: inline-block;
+}
+
+/*Main and aside blocks*/
+.post__time {
+	color: gray;
+	font-size: 14px;
 }
 
 .tags{
-	background: blue;
 	color: white;
-	display: inline-block;
-	
+	display: block;
 }
+
+.tag {
+	background: blue;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 3px 10px;
+	position: relative;
+	list-style-type: none;	
+}
+
+.widget {
+	float: right;
+	display: block;
+	position: relative;
+}
+
+/*Footer blocks*/
