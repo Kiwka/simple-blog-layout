@@ -1,0 +1,10 @@
+body {
+	font-family: Arial;
+}
+
+.tags{
+	background: blue;
+	color: white;
+	display: inline-block;
+	
+}
